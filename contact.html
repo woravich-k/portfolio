@@ -66,25 +66,25 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         <p>
-							Please do not hesitate to contact me either by <a href="mailto:woravich@hotmail.com">emailing me</a> or the following form.
+							Please do not hesitate to contact me either by <a href="mailto:woravich@hotmail.com">emailing me</a> or the following form (temporary unavaialble).
                         </p>
                         
                         <form action="#" class="">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" disabled>
+                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" disabled>
                                 <label class="mdl-textfield__label" for="Name">Name...</label>
                                 <span class="mdl-textfield__error">Letters and spaces only</span>
                             </div>
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="Email">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" >
+                                <input class="mdl-textfield__input" type="text" id="Email" disabled>
                                 <label class="mdl-textfield__label" for="Email">Email...</label>
                             </div>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <textarea class="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
+                                <textarea class="mdl-textfield__input" type="text" rows="5" id="note" disabled></textarea>
                                 <label class="mdl-textfield__label" for="note">Enter note</label>
                             </div>
                             <p>
-                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id = "submit" onclick = "send(); return;">
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id = "submit" onclick = "send(); return;" disabled>
                                     Submit
                                 </button>
                             </p>
